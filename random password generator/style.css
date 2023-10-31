@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #002339;
+    color: white;
+}
+.container{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border: 2px solid rgb(55, 255, 0);
+    box-shadow: 2px 2px 20px green;
+    padding: 20px;
+}
+.container h1{
+    padding-bottom: 20px;
+}
+.container #password{
+    padding: 20px ;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.container i{
+    position: absolute;
+    top: 140px;
+    right: 40px;
+    color: black;
+    cursor: pointer;
+}
+.container #submit{
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: #002339;
+    color: white;
+    box-shadow: 4px 4px 10px green;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg,#010758,#490d61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    color: white;
+    margin-bottom: 50px;
+}
+.hero h1 span{
+    color: rgb(246, 6, 58);
+}
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #403d84;
+    color: #fff;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    resize: none;
+    
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: white;
+}
+textarea:focus::placeholder{
+    color: #403d84;
+}
+
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button{
+    background: #ff2963;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    border: 0;
+    margin: 0;
+    outline: none;
+}
+
+
+button:hover{
+    background-color: #f49d9d;
+    color: rgb(0, 8, 255);
+    outline: 2px solid rgb(255, 255, 255);
+}
+button i{
+    margin-right: 10px;
+}
+
+select{
+    flex: 1;
+    color: white;
+    background: #403d84;
+    height: 50px;
+    padding: 5px 20px;
+    outline: 0;
+    border: 0;
+    appearance: none;
+    border-radius: 35px;
+    background-image: url(/media/2.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: color-burn;
+    background-size: 15px;
+    background-position-x: calc(98%);
+    background-position-y:calc(50%) ;
+    
+}
